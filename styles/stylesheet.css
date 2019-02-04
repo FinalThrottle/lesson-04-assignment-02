@@ -1,0 +1,86 @@
+*{
+	box-sizing: border-box;
+}
+body {
+	font-family: Verdana, Geneva, sans-serif;
+}
+header {
+	height:13em;
+	background-image: url("../images/banner-image.jpg");
+	background-size: cover;
+	color:white;
+	/*margin-left:13%;*/
+	padding:2% 14%;
+}
+header h1 {
+}
+header h3 {
+	font-style:italic;
+}
+nav {
+	background-color: #EBEBEB;
+	padding:1em 13.3%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+	display:inline;
+}
+a {
+	color: black;
+	padding: 1%;
+	text-decoration: none;
+}
+a.hatsukoi {
+	color: #52B9D4;
+}
+section {
+	width:50%;
+	margin-right:1%;
+	padding-left: 14%;
+	float:left;
+}
+	section:first-of-type h4 {
+	  color:#3DA6C1;
+	}
+	section:first-of-type p {
+	}
+	section:first-of-type p a {
+	}
+	section h5 {
+		color:#52B9D4;
+		font-size:1em;
+	}
+	section:last-of-type h4 {
+		color:#3DA6C1;
+	}
+	section:last-of-type p {
+	}
+	section:last-of-type p a {
+	}
+aside {
+	width:20%;
+	float: inherit;
+	display:inline-block;
+	margin-right:5%;
+	padding-left: 5%;
+}
+footer{
+  padding-top: 20px;
+  text-align: center;
+  background-image: url("../images/footer.jpg");
+	background-size: cover;
+  clear: both;
+  color: white;
+	padding: 1rem;
+}
+footer img.logo {
+	width: 250px;
+}
+.chikai {
+	color:#3DA6C1;
+}
